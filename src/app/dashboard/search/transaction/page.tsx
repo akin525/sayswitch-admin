@@ -8,7 +8,7 @@ import {
     Eye, Navigation, Globe, Building2, Activity, Clock,
     Calendar, Hash, Database, CreditCard, ShieldCheck,
     User, Smartphone, AlertTriangle, ArrowRightLeft, Zap,
-    ShoppingCart, Landmark, Terminal, RefreshCw, ArrowDownLeft, Loader2, Check
+    ShoppingCart, Landmark, Terminal, RefreshCw, ArrowDownLeft, Loader2, Check, X
 } from "lucide-react";
 
 export default function SearchTransactionAnalysis() {
