@@ -149,12 +149,12 @@ const MENU_SECTIONS: MenuSection[] = [
                 label: "Cashier Operations",
                 icon: <Inbox size={18} />,
                 subItems: [
-                    { label: "Payout Cashier", icon: <CreditCard size={16} />, href: "/dashboard/cashier/payout" },
-                    { label: "Deposit Cashier", icon: <Wallet size={16} />, href: "/dashboard/cashier/deposit" },
+                    { label: "Operations", icon: <CreditCard size={16} />, href: "/dashboard/cashier/payout" },
+                    // { label: "Deposit Cashier", icon: <Wallet size={16} />, href: "/dashboard/cashier/deposit" },
                 ],
             },
             { label: "Growth & Performance", icon: <TrendingUp size={18} />, href: "/dashboard/growth" },
-            { label: "Audit Logs", icon: <FileText size={18} />, href: "/dashboard/audit-logs" },
+            { label: "Audit Logs", icon: <FileText size={18} />, href: "/dashboard/audit" },
         ],
     },
 ];
