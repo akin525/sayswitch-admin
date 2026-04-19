@@ -153,7 +153,7 @@ const MENU_SECTIONS: MenuSection[] = [
                     // { label: "Deposit Cashier", icon: <Wallet size={16} />, href: "/dashboard/cashier/deposit" },
                 ],
             },
-            { label: "Growth & Performance", icon: <TrendingUp size={18} />, href: "/dashboard/growth" },
+            // { label: "Growth & Performance", icon: <TrendingUp size={18} />, href: "/dashboard/growth" },
             { label: "Audit Logs", icon: <FileText size={18} />, href: "/dashboard/audit" },
         ],
     },
