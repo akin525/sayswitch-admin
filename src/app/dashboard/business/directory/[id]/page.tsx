@@ -134,10 +134,14 @@ export default function BusinessDetails({ params }: { params: { id: string } }) 
 // --- FEES TAB ---
 function TabFees() {
     // Modal State Management
-    const [modalState, setModalState] = useState({
+    const [modalState, setModalState] = useState<{
+        isOpen: boolean;
+        type: 'collection' | 'payout';
+        action: 'create' | 'edit';
+    }>({
         isOpen: false,
-        type: 'collection', // 'collection' | 'payout'
-        action: 'create', // 'create' | 'edit'
+        type: 'collection',
+        action: 'create',
     });
 
     const openModal = (type: 'collection' | 'payout', action: 'create' | 'edit') => {
