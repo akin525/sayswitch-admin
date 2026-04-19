@@ -13,7 +13,7 @@ import {
 export default function BoardAnalytics() {
     // --- MOCK DATA ---
     const merchantPerformance = [
-        { name: 'Spayz', volume: 12000000, growth: '+12%' },
+        { name: 'AfriClique', volume: 12000000, growth: '+12%' },
         { name: 'Isakharu', volume: 8500000, growth: '+8%' },
         { name: 'Tech Solutions', volume: 5200000, growth: '-2%' },
         { name: 'Acme Corp', volume: 4100000, growth: '+15%' },

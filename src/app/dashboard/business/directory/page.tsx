@@ -24,7 +24,7 @@ export default function BusinessDirectory() {
     const [searchTerm, setSearchTerm] = useState("");
 
     const businesses: Business[] = [
-        { id: "BUS-9910", name: "Spayz Logistics", email: "ops@spayz.com", category: "Transport", status: 'active', volume: "₦12.5M", joinedDate: "Jan 12, 2026" },
+        { id: "BUS-9910", name: "AfriClique Logistics", email: "ops@AfriClique.com", category: "Transport", status: 'active', volume: "₦12.5M", joinedDate: "Jan 12, 2026" },
         { id: "BUS-9911", name: "Isakharu Tech", email: "hello@isakharu.io", category: "Software", status: 'active', volume: "₦8.2M", joinedDate: "Feb 05, 2026" },
         { id: "BUS-9912", name: "Acme Retail", email: "billing@acme.co", category: "Ecommerce", status: 'pending', volume: "₦0.00", joinedDate: "Mar 20, 2026" },
         { id: "BUS-9913", name: "Global Foodies", email: "owner@gfood.com", category: "Hospitality", status: 'active', volume: "₦4.1M", joinedDate: "Nov 15, 2025" },

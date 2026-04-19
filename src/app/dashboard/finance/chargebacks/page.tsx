@@ -34,7 +34,7 @@ export default function ChargebacksPage() {
     // --- MOCK DATA ---
     const chargebacks: Chargeback[] = [
         { id: "CHB-9021", transactionId: "TXN-001928374", business: "Machika Telecoms", amount: "₦45,000.00", reason: "Fraudulent Transaction", dueDate: "Tomorrow, 11:59 PM", status: 'Action Required', filedOn: "Yesterday", customerName: "John Doe", evidenceSubmitted: false },
-        { id: "CHB-9022", transactionId: "TXN-001928311", business: "Spayz Logistics", amount: "₦12,500.00", reason: "Product Not Received", dueDate: "In 3 Days", status: 'Under Review', filedOn: "Mar 28, 2026", customerName: "Sarah Jenkins", evidenceSubmitted: true },
+        { id: "CHB-9022", transactionId: "TXN-001928311", business: "AfriClique Logistics", amount: "₦12,500.00", reason: "Product Not Received", dueDate: "In 3 Days", status: 'Under Review', filedOn: "Mar 28, 2026", customerName: "Sarah Jenkins", evidenceSubmitted: true },
         { id: "CHB-9023", transactionId: "TXN-001928280", business: "Global Foodies", amount: "₦8,000.00", reason: "Duplicate Billing", dueDate: "Expired", status: 'Lost', filedOn: "Mar 15, 2026", customerName: "Michael Okonkwo", evidenceSubmitted: false },
         { id: "CHB-9024", transactionId: "TXN-001928210", business: "Acme Retail", amount: "₦120,000.00", reason: "Unrecognized Charge", dueDate: "Closed", status: 'Won', filedOn: "Mar 10, 2026", customerName: "Aisha Bello", evidenceSubmitted: true },
         { id: "CHB-9025", transactionId: "TXN-001928195", business: "Isakharu Tech", amount: "₦50,000.00", reason: "Canceled Subscription", dueDate: "Closed", status: 'Accepted', filedOn: "Mar 05, 2026", customerName: "David Smith", evidenceSubmitted: false },
@@ -114,7 +114,7 @@ export default function ChargebacksPage() {
                                 <FilterSelect label="Reason Code" options={["All Reasons", "Fraudulent", "Product Not Received", "Duplicate", "Unrecognized"]} />
                                 <div className="flex flex-col gap-1.5">
                                     <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest pl-1">Business Name</label>
-                                    <input type="text" placeholder="e.g. Spayz Logistics" className="w-full bg-[var(--card)] border border-[var(--border)] rounded-xl px-4 py-2.5 text-[12px] font-bold text-[var(--foreground)] outline-none focus:border-rose-500 transition-all" />
+                                    <input type="text" placeholder="e.g. AfriClique Logistics" className="w-full bg-[var(--card)] border border-[var(--border)] rounded-xl px-4 py-2.5 text-[12px] font-bold text-[var(--foreground)] outline-none focus:border-rose-500 transition-all" />
                                 </div>
                                 <FilterDate label="Filed From" />
                                 <FilterDate label="Filed To" />

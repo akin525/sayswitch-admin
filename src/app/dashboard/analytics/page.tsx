@@ -32,7 +32,7 @@ export default function AnalyticsPage() {
 
     const topMerchants = [
         { id: "1", name: "Machika Telecoms", volume: "₦142.5M", txCount: "12,450", trend: "+12.5%" },
-        { id: "2", name: "Spayz Logistics", volume: "₦89.2M", txCount: "8,920", trend: "+8.2%" },
+        { id: "2", name: "AfriClique Logistics", volume: "₦89.2M", txCount: "8,920", trend: "+8.2%" },
         { id: "3", name: "Green Energy Ltd", volume: "₦65.4M", txCount: "5,100", trend: "+15.4%" },
         { id: "4", name: "Isakharu Tech", volume: "₦42.1M", txCount: "3,240", trend: "-2.1%" },
         { id: "5", name: "Global Foodies", volume: "₦28.8M", txCount: "4,500", trend: "+5.8%" },

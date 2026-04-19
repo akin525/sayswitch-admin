@@ -29,7 +29,7 @@ export default function ExportPerBusiness() {
     // --- MOCK DATA ---
     const recentExports: ExportJob[] = [
         { id: "EXP-90812", business: "Machika Telecoms", dataType: "Transactions", dateRange: "Mar 01 - Mar 31, 2026", format: 'CSV', status: 'Completed', generatedAt: "Today, 10:45 AM", size: "2.4 MB" },
-        { id: "EXP-90811", business: "Spayz Logistics", dataType: "Payouts", dateRange: "Jan 01 - Mar 31, 2026", format: 'Excel', status: 'Processing', generatedAt: "Today, 10:42 AM" },
+        { id: "EXP-90811", business: "AfriClique Logistics", dataType: "Payouts", dateRange: "Jan 01 - Mar 31, 2026", format: 'Excel', status: 'Processing', generatedAt: "Today, 10:42 AM" },
         { id: "EXP-90810", business: "Global Foodies", dataType: "Checkouts", dateRange: "Feb 01 - Feb 28, 2026", format: 'PDF', status: 'Completed', generatedAt: "Yesterday, 16:30 PM", size: "1.1 MB" },
         { id: "EXP-90809", business: "Isakharu Tech", dataType: "Transfers", dateRange: "Jan 01 - Jan 31, 2026", format: 'CSV', status: 'Failed', generatedAt: "Mar 25, 2026" },
         { id: "EXP-90808", business: "Acme Retail", dataType: "Incoming Transfers", dateRange: "Q4 2025", format: 'Excel', status: 'Completed', generatedAt: "Mar 20, 2026", size: "5.8 MB" },
@@ -76,7 +76,7 @@ export default function ExportPerBusiness() {
                             <select className="w-full bg-[var(--background)] border border-[var(--border)] rounded-xl pl-11 pr-4 py-3 text-[13px] font-bold text-[var(--foreground)] outline-none focus:ring-2 focus:ring-[#00823B]/20 focus:border-[#00823B] transition-all appearance-none cursor-pointer">
                                 <option value="">Select merchant...</option>
                                 <option value="machika">Machika Telecoms</option>
-                                <option value="spayz">Spayz Logistics</option>
+                                <option value="AfriClique">AfriClique Logistics</option>
                                 <option value="isakharu">Isakharu Tech</option>
                                 <option value="global">Global Foodies</option>
                             </select>

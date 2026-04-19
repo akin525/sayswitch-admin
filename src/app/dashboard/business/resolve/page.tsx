@@ -28,7 +28,7 @@ export default function ResolveTransactions() {
 
     // --- MOCK DATA ---
     const stuckTransactions: StuckTransaction[] = [
-        { id: "TX-88291A", reference: "NIP-992837461", business: "Spayz Logistics", amount: "₦450,000.00", provider: "NIBSS", timeStuck: "4 hours", riskLevel: 'high', errorLog: "Upstream timeout waiting for final credit confirmation." },
+        { id: "TX-88291A", reference: "NIP-992837461", business: "AfriClique Logistics", amount: "₦450,000.00", provider: "NIBSS", timeStuck: "4 hours", riskLevel: 'high', errorLog: "Upstream timeout waiting for final credit confirmation." },
         { id: "TX-88292B", reference: "PRV-110293847", business: "Isakharu Tech", amount: "₦12,500.00", provider: "PROVIDUS", timeStuck: "45 mins", riskLevel: 'medium', errorLog: "Webhook payload verification failed due to signature mismatch." },
         { id: "TX-88293C", reference: "VFD-554637281", business: "Global Foodies", amount: "₦85,000.00", provider: "VFD", timeStuck: "12 mins", riskLevel: 'low', errorLog: "Pending core banking settlement response." },
         { id: "TX-88294D", reference: "SAF-993827162", business: "Acme Retail", amount: "₦1,200,000.00", provider: "SAFEHAVEN", timeStuck: "1 day", riskLevel: 'high', errorLog: "Suspected duplicate transaction signature. Manual review required." },

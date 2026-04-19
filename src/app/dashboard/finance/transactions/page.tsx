@@ -32,7 +32,7 @@ export default function Transactions() {
     // --- MOCK DATA ---
     const transactions: Transaction[] = [
         { id: "TXN-001928374", reference: "REF-NIP-998273", business: "Machika Telecoms", amount: "₦450,000.00", fee: "₦45.00", type: 'Collection', channel: "Bank Transfer", status: 'Success', date: "Today, 10:24 AM", customer: "John Doe" },
-        { id: "TXN-001928375", reference: "REF-CRD-112233", business: "Spayz Logistics", amount: "₦12,500.00", fee: "₦187.50", type: 'Collection', channel: "Card", status: 'Success', date: "Today, 09:15 AM", customer: "Sarah Jenkins" },
+        { id: "TXN-001928375", reference: "REF-CRD-112233", business: "AfriClique Logistics", amount: "₦12,500.00", fee: "₦187.50", type: 'Collection', channel: "Card", status: 'Success', date: "Today, 09:15 AM", customer: "Sarah Jenkins" },
         { id: "TXN-001928376", reference: "REF-OUT-445566", business: "Global Foodies", amount: "₦85,000.00", fee: "₦25.00", type: 'Payout', channel: "NIBSS", status: 'Pending', date: "Today, 08:30 AM" },
         { id: "TXN-001928377", reference: "REF-BIL-778899", business: "Green Energy Ltd", amount: "₦5,400.00", fee: "₦0.00", type: 'Bill Payment', channel: "Wallet", status: 'Failed', date: "Yesterday, 18:45 PM", customer: "Mike Okonkwo" },
         { id: "TXN-001928378", reference: "REF-NIP-223344", business: "Isakharu Tech", amount: "₦1,200,000.00", fee: "₦50.00", type: 'Transfer', channel: "Bank Transfer", status: 'Success', date: "Yesterday, 14:20 PM" },

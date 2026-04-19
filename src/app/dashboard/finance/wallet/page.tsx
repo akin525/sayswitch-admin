@@ -34,7 +34,7 @@ export default function WalletTransactions() {
     // --- MOCK DATA ---
     const walletLedger: WalletTransaction[] = [
         { id: "WLT-88192301", reference: "REF-W-99210", business: "Machika Telecoms", type: 'Credit', amount: "₦450,000.00", balanceAfter: "₦4,525,490.19", description: "Virtual Account Top-up via NIBSS", status: 'Successful', date: "Today, 10:24 AM", category: 'Top-up' },
-        { id: "WLT-88192302", reference: "REF-W-99211", business: "Spayz Logistics", type: 'Debit', amount: "₦12,500.00", balanceAfter: "₦1,237,500.00", description: "Platform Monthly Subscription Fee", status: 'Successful', date: "Today, 09:15 AM", category: 'Fee Deduction' },
+        { id: "WLT-88192302", reference: "REF-W-99211", business: "AfriClique Logistics", type: 'Debit', amount: "₦12,500.00", balanceAfter: "₦1,237,500.00", description: "Platform Monthly Subscription Fee", status: 'Successful', date: "Today, 09:15 AM", category: 'Fee Deduction' },
         { id: "WLT-88192303", reference: "REF-W-99212", business: "Global Foodies", type: 'Credit', amount: "₦85,000.00", balanceAfter: "₦84,150.00", description: "Reversal for Failed Transfer TRF-00918275", status: 'Pending', date: "Today, 08:30 AM", category: 'Payout Reversal' },
         { id: "WLT-88192304", reference: "REF-W-99213", business: "Green Energy Ltd", type: 'Debit', amount: "₦5,400.00", balanceAfter: "₦534,600.00", description: "Manual Admin Deduction (Chargeback)", status: 'Failed', date: "Yesterday, 18:45 PM", category: 'Manual Adjustment' },
         { id: "WLT-88192305", reference: "REF-W-99214", business: "Isakharu Tech", type: 'Credit', amount: "₦1,200,000.00", balanceAfter: "₦3,675,000.00", description: "Virtual Account Top-up via PROVIDUS", status: 'Successful', date: "Yesterday, 14:20 PM", category: 'Top-up' },
@@ -115,7 +115,7 @@ export default function WalletTransactions() {
                                 <FilterSelect label="Category" options={["All Categories", "Top-up", "Fee Deduction", "Manual Adjustment", "Payout Reversal"]} />
                                 <div className="flex flex-col gap-1.5 lg:col-span-2">
                                     <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest pl-1">Business Name</label>
-                                    <input type="text" placeholder="e.g. Spayz Logistics" className="w-full bg-[var(--card)] border border-[var(--border)] rounded-xl px-4 py-2.5 text-[12px] font-bold text-[var(--foreground)] outline-none focus:border-cyan-500 transition-all" />
+                                    <input type="text" placeholder="e.g. AfriClique Logistics" className="w-full bg-[var(--card)] border border-[var(--border)] rounded-xl px-4 py-2.5 text-[12px] font-bold text-[var(--foreground)] outline-none focus:border-cyan-500 transition-all" />
                                 </div>
                                 <FilterDate label="From Date" />
                                 <FilterDate label="To Date" />

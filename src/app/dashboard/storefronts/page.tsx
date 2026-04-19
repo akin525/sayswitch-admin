@@ -16,7 +16,7 @@ export default function StorefrontsList() {
     // --- MOCK DATA ---
     const storefronts = [
         { id: "STR-001", name: "Machika Gadgets", merchant: "Machika Telecoms", revenue: "₦4,520,000", orders: 1, views: 3420, status: "Active", url: "say.sw/machika-gadgets" },
-        { id: "STR-002", name: "Spayz Logistics Fees", merchant: "Spayz Logistics", revenue: "₦850,000", orders: 34, views: 890, status: "Active", url: "say.sw/spayz-fees" },
+        { id: "STR-002", name: "AfriClique Logistics Fees", merchant: "AfriClique Logistics", revenue: "₦850,000", orders: 34, views: 890, status: "Active", url: "say.sw/AfriClique-fees" },
         { id: "STR-003", name: "Isakharu Tech Services", merchant: "Isakharu Tech", revenue: "₦120,000", orders: 5, views: 120, status: "Inactive", url: "say.sw/isakharu" },
         { id: "STR-004", name: "Green Energy Bills", merchant: "Green Energy Ltd", revenue: "₦12,400,000", orders: 892, views: 15400, status: "Active", url: "say.sw/green-energy" },
         { id: "STR-005", name: "Acme Retail Store", merchant: "Acme Retail", revenue: "₦0", orders: 0, views: 12, status: "Draft", url: "say.sw/acme-retail" },

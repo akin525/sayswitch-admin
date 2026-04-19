@@ -27,7 +27,7 @@ export default function MerchantList() {
     // --- MOCK DATA ---
     const merchants: Merchant[] = [
         { id: "MER-1001", name: "Yusuf Tasiu Machika", email: "machikatelecoms@gmail.com", phone: "07025245508", linkedBusiness: "Machika Telecoms", status: 'verified', walletBalance: "₦4,525,490.19", joinedDate: "Jan 12, 2026" },
-        { id: "MER-1002", name: "Sarah Jenkins", email: "sarah.j@spayz.com", phone: "+234 812 345 6789", linkedBusiness: "Spayz Logistics", status: 'verified', walletBalance: "₦1,250,000.00", joinedDate: "Feb 05, 2026" },
+        { id: "MER-1002", name: "Sarah Jenkins", email: "sarah.j@AfriClique.com", phone: "+234 812 345 6789", linkedBusiness: "AfriClique Logistics", status: 'verified', walletBalance: "₦1,250,000.00", joinedDate: "Feb 05, 2026" },
         { id: "MER-1003", name: "Michael Okonkwo", email: "mike.ok@gmail.com", phone: "+234 903 456 7890", linkedBusiness: "Independent", status: 'unverified', walletBalance: "₦0.00", joinedDate: "Mar 20, 2026" },
         { id: "MER-1004", name: "Aisha Bello", email: "a.bello@isakharu.io", phone: "+234 701 234 5678", linkedBusiness: "Isakharu Tech", status: 'verified', walletBalance: "₦850,200.50", joinedDate: "Nov 15, 2025" },
         { id: "MER-1005", name: "David Smith", email: "d.smith@shadow.net", phone: "+234 805 678 9012", linkedBusiness: "Shadow Services", status: 'suspended', walletBalance: "₦45,000.00", joinedDate: "Dec 01, 2025" },

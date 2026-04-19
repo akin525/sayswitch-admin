@@ -33,7 +33,7 @@ export default function SettlementsPage() {
     // --- MOCK DATA ---
     const settlements: Settlement[] = [
         { id: "STL-9928371", batchId: "BAT-1029A", business: "Machika Telecoms", grossAmount: "₦4,525,490.00", fees: "₦25,490.00", netAmount: "₦4,500,000.00", destinationBank: "UBA", destinationAccount: "2093817263", status: 'Processed', date: "Today, 08:00 AM", transactionCount: 142 },
-        { id: "STL-9928372", batchId: "BAT-1029A", business: "Spayz Logistics", grossAmount: "₦1,250,000.00", fees: "₦12,500.00", netAmount: "₦1,237,500.00", destinationBank: "PROVIDUS", destinationAccount: "9902837461", status: 'Pending', date: "Today, 08:00 AM", transactionCount: 89 },
+        { id: "STL-9928372", batchId: "BAT-1029A", business: "AfriClique Logistics", grossAmount: "₦1,250,000.00", fees: "₦12,500.00", netAmount: "₦1,237,500.00", destinationBank: "PROVIDUS", destinationAccount: "9902837461", status: 'Pending', date: "Today, 08:00 AM", transactionCount: 89 },
         { id: "STL-9928373", batchId: "BAT-1028C", business: "Global Foodies", grossAmount: "₦85,000.00", fees: "₦850.00", netAmount: "₦84,150.00", destinationBank: "VFD MFB", destinationAccount: "1002938475", status: 'Processed', date: "Yesterday, 08:00 AM", transactionCount: 12 },
         { id: "STL-9928374", batchId: "BAT-1028C", business: "Green Energy Ltd", grossAmount: "₦540,000.00", fees: "₦5,400.00", netAmount: "₦534,600.00", destinationBank: "GTBANK", destinationAccount: "0123948576", status: 'Failed', date: "Yesterday, 08:00 AM", transactionCount: 45, errorLog: "Account name mismatch. Settlement reversed to merchant wallet." },
         { id: "STL-9928375", batchId: "BAT-1027D", business: "Isakharu Tech", grossAmount: "₦2,500,000.00", fees: "₦25,000.00", netAmount: "₦2,475,000.00", destinationBank: "SAFEHAVEN", destinationAccount: "9002837465", status: 'Processed', date: "Mar 26, 2026", transactionCount: 210 },
@@ -111,7 +111,7 @@ export default function SettlementsPage() {
                         <div className="overflow-hidden">
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 p-5 bg-[var(--background)] rounded-2xl border border-[var(--border)]">
                                 <FilterSelect label="Status" options={["All Statuses", "Processed", "Pending", "Failed"]} />
-                                <FilterSelect label="Business" options={["All Merchants", "Machika Telecoms", "Spayz Logistics"]} />
+                                <FilterSelect label="Business" options={["All Merchants", "Machika Telecoms", "AfriClique Logistics"]} />
                                 <div className="flex flex-col gap-1.5">
                                     <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest pl-1">Batch ID</label>
                                     <input type="text" placeholder="e.g. BAT-1029A" className="w-full bg-[var(--card)] border border-[var(--border)] rounded-xl px-4 py-2.5 text-[12px] font-bold text-[var(--foreground)] outline-none focus:border-indigo-500 transition-all" />

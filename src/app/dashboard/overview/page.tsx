@@ -36,8 +36,8 @@ export default function OverviewPage() {
 
     // --- MOCK DATA ---
     const recentTransactions: Transaction[] = [
-        { id: "000000000000365315394", business: "Spayz", amount: "KSh100", type: "Transaction", status: "success", date: "Mar 27, 2026, 11:17 AM", fee: "KSh2.50", customerEmail: "samson@sayswitch.com", customerName: "Samson Admin", reference: "SS-TX-99182", channel: "Card", bank: "Access Bank", cardType: "Visa •••• 4242", ipAddress: "192.168.1.1" },
-        { id: "000000000000365315386", business: "Spayz", amount: "KSh100", type: "Transaction", status: "success", date: "Mar 27, 2026, 11:17 AM", fee: "KSh2.50", customerEmail: "client@mail.com", customerName: "John Doe", reference: "SS-TX-99183", channel: "Bank Transfer", bank: "Zenith Bank", ipAddress: "102.16.8.44" },
+        { id: "000000000000365315394", business: "AfriClique", amount: "KSh100", type: "Transaction", status: "success", date: "Mar 27, 2026, 11:17 AM", fee: "KSh2.50", customerEmail: "samson@sayswitch.com", customerName: "Samson Admin", reference: "SS-TX-99182", channel: "Card", bank: "Access Bank", cardType: "Visa •••• 4242", ipAddress: "192.168.1.1" },
+        { id: "000000000000365315386", business: "AfriClique", amount: "KSh100", type: "Transaction", status: "success", date: "Mar 27, 2026, 11:17 AM", fee: "KSh2.50", customerEmail: "client@mail.com", customerName: "John Doe", reference: "SS-TX-99183", channel: "Bank Transfer", bank: "Zenith Bank", ipAddress: "102.16.8.44" },
         { id: "00000000000X2587301", business: "Isakharu Tech", amount: "KSh49", type: "Transaction", status: "success", date: "Mar 27, 2026, 11:17 AM", fee: "KSh1.20", customerEmail: "info@tech.io", reference: "SS-TX-99184", channel: "USSD", bank: "GTBank", ipAddress: "41.52.1.9" },
     ];
 

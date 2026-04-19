@@ -28,7 +28,7 @@ export default function ComplianceApprovalPage() {
     if (viewState === 'queue') {
         const queue = [
             { id: "MER-00912", name: "Machika Telecoms", type: "LLC", tier: "Tier 3", submitted: "2 hours ago", risk: "Low", status: "Pending Review" },
-            { id: "MER-00913", name: "Spayz Logistics", type: "Sole Prop", tier: "Tier 2", submitted: "5 hours ago", risk: "Medium", status: "Pending Review" },
+            { id: "MER-00913", name: "AfriClique Logistics", type: "Sole Prop", tier: "Tier 2", submitted: "5 hours ago", risk: "Medium", status: "Pending Review" },
             { id: "MER-00914", name: "Global Foodies", type: "LLC", tier: "Tier 3", submitted: "1 day ago", risk: "High", status: "Escalated" },
             { id: "MER-00915", name: "Green Energy Ltd", type: "Public Ltd", tier: "Tier 3", submitted: "2 days ago", risk: "Low", status: "Awaiting Info" },
         ];

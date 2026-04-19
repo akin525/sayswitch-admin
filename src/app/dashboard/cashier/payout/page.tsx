@@ -30,7 +30,7 @@ export default function CashierOperationsPage() {
         { id: 8, name: "SAMMIGHTY", email: "akinlabisamson15@gmail.com" },
         { id: 252, name: "MACHIKA TELECOMS", email: "admin@machikatelecoms.ng" },
         { id: 109, name: "GLOBAL FOODIES", email: "finance@globalfoodies.com" },
-        { id: 44, name: "SPAYZ LOGISTICS", email: "hello@spayz.io" }
+        { id: 44, name: "AfriClique LOGISTICS", email: "hello@AfriClique.io" }
     ];
 
     // Handle Search Autocomplete Simulation
